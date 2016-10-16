@@ -1,5 +1,6 @@
-execute pathogen#infect()
-syntax on 
+execute pathogen#infect("~/.vim/bundle/{dracula-theme,nerdtree}")
+syntax on
+set number 
 "set background=dark
 "colorscheme solarized
 "filetype plugin indent on
@@ -160,10 +161,10 @@ augroup myvimrc
 " => Colors and Fonts
 " """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "
- try
-     colorscheme desert
-     catch
-     endtry
+ "try
+ "   colorscheme desert
+ "   catch
+ "   endtry
 "
      set background=dark
 "
