@@ -1,3 +1,9 @@
 [submodule "bundle/dracula-theme"]
 	path = bundle/dracula-theme
 	url = https://github.com/dracula/dracula-theme.git
+[submodule "/Users/alexdixon/.vim/bundle/javascript-syntax-highlight"]
+	path = /Users/alexdixon/.vim/bundle/javascript-syntax-highlight
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "bundle/darcula-theme"]
+	path = bundle/darcula-theme
+	url = https://github.com/blueshirts/darcula.git

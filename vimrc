@@ -1,9 +1,10 @@
-execute pathogen#infect("~/.vim/bundle/{dracula-theme,nerdtree}")
-syntax on
+execute pathogen#infect("~/.vim/bundle/{}")
+syntax enable 
 set number 
 "set background=dark
-"colorscheme solarized
+colorscheme darcula
 "filetype plugin indent on
+
 "Focus on NERDTree pane
  map <silent> <C-n> :NERDTreeFocus<CR>
  "NERDTree shortcut
@@ -166,7 +167,7 @@ augroup myvimrc
  "   catch
  "   endtry
 "
-     set background=dark
+"    set background=dark
 "
 "     " Set extra options when running in GUI mode
      if has("gui_running")
@@ -293,7 +294,7 @@ augroup myvimrc
  set laststatus=2
 "
 " " Format the status line
- "set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l
+ set statusline=\ \ %r%{getcwd()}%h\ \ \ Line:\ %l
 "
 "
 " """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
